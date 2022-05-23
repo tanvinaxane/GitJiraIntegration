@@ -39,5 +39,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
+          mkdir newrepo11 
+          cd newrepo11
+          git init
           echo Add other actions to build,
           echo test, and deploy your project.
